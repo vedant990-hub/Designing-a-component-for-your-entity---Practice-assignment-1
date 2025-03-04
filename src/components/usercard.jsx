@@ -8,12 +8,13 @@ export default function UserCard(){
     let address="hjdbhb";
 return(
     <>
-    <div style={{border: "1px solid white"}}>
+    <div style={{border: "1px solid pink"}}>
         <h1>{name}</h1>
         <img src={profile_photo} alt="" style={{height:250, width:250}}/>
         <h3>{mail}</h3>
         <h3>{num}</h3>
         <p>{address}</p>
+    
         
     </div>
     </>
